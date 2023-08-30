@@ -1,0 +1,71 @@
+/* Réinitialisation des marges et des paddings */
+body, h1, h2, h3, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Style du header */
+  header {
+    background-color: #0d4f9b;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  header h1 {
+    font-size: 24px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  nav ul li {
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  /* Style de la section des produits */
+  .products {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+  }
+  
+  /* Style du footer */
+  footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #29408b;
+    color: #fff;
+  }
+  
+  /* ... (Vos styles existants) ... */
+
+/* Style des articles du panier */
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  /* Style du bouton de suppression */
+  .remove-from-cart {
+    background-color: #ff4f4f;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  /* ... (Vos styles existants) ... */
+  
